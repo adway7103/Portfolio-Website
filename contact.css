@@ -1,0 +1,29 @@
+
+strong{
+    text-decoration: underline;
+}
+img{
+    margin-right: 0;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.abc{
+    display: flex;
+    align-items: center;
+}
+h5{
+    font-size: 20px;
+}
+.middle{
+align-items: center;
+}
+.footer{
+    margin-top: 8%;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="images/lady-employee-doing-video-meeting.png" />
+  <link rel="stylesheet" href="skills.css">
+  <title>Adway Lachhiramka</title>
+</head>
+
+<body>
+  <div class="navbar" id="mytopnav">
+    <div class="Name">
+      <button class="dropbtn main" onclick="window.location.href ='index.html'">
+        <h1>adway</h1>
+      </button>
+    </div>
+
+    <div class="Home k"><button class="dropbtn" onclick="window.location.href ='index.html'">Home</button>
+    </div>
+    <div class="portfolio dropdown k">
+      <button class="dropbtn" onclick="myFunction()">Portfolio<svg width="10" height="6"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+        </svg></button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+      </div>
+    </div>
+    <div class="about dropdown1 k">
+      <button class="dropbtn1" onclick="myFunction1()">About Me<svg width="10" height="6"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+        </svg></button>
+      <div id="myDropdown1" class="dropdown-content1">
+        <a href="education.html">My Education</a>
+        <a href="contact.html">Contact Details</a>
+      </div>
+    </div>
+    <div class="reachout k">
+      <button class="dropbtn rch" onclick="window.location.href ='reachout.html'">Reach Out</button>
+    </div>
+    <div class="dark">
+      <a class="darkbtn" id="btn"><img class="moon" id="icon" src="images/7148715_dark_mode_night_moon_icon.png"
+          alt=""></a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <hr>
+  <div class="middle">
+    <div class="text">
+      <h3>Skill Meter</h3>
+    </div>
+    <div class="skills">
+      <div class="skill">
+        <div class="skill-name"><h5>HTML</h5></div>
+        <div class="skill-bar">
+          <div class="skill-per" per="90%" style="max-width:90%"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-name"><h5>CSS</h5></div>
+        <div class="skill-bar">
+          <div class="skill-per" per="70%" style="max-width:70%"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-name"><h5>Javascript</h5></div>
+        <div class="skill-bar">
+          <div class="skill-per" per="30%" style="max-width:30%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name"><h5>Java</h5></div>
+        <div class="skill-bar">
+          <div class="skill-per" per="60%" style="max-width:60%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name"><h5>Python</h5></div>
+        <div class="skill-bar">
+          <div class="skill-per" per="80%" style="max-width:80%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name"><h5>MySQL</h5></div>
+        <div class="skill-bar">
+          <div class="skill-per" per="75%" style="max-width:75%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+.text{
+    margin-top: 10px;
+}
+#small{
+    font-size: 2.4rem;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    height: 40px;
+}
+.message{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.send{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.rchinp{
+    margin-left: 20px;
+    
+    
+}
+h2{
+    margin-top: 70px;
+}
+h5{
+    font-size: 20px;
+}
+.nameinp,.emailinp,.messageinp{
+    width: 400px;
+    margin-right: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+.messageinp{
+    height: 80px;
+    padding: 10px;
+    margin-left: 40px;
+}
+@media screen and (max-width: 600px) {
+    .messageinp{
+      height: 80px;
+      padding: 10px;
+      margin-right: 20px;
+      font-size: 13px;
+  }
+  #small{
+    font-size: 2rem;
+
+  }
+  h2{
+    padding:0px 20px;
+  }
+}
+#success{
+    color: green;
+    display: none;
+    /* position: absolute; */
+}
+h2{
+    margin-top: 10px;
+}
+#send{
+    margin-top: 30px;
+    padding: 10px 100px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(255, 143, 15);
+}

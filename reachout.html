@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="images/lady-employee-doing-video-meeting.png" />
+  <link rel="stylesheet" href="reachout.css">
+  <title>Adway Lachhiramka</title>
+</head>
+
+<body>
+  <div class="navbar" id="mytopnav">
+    <div class="Name">
+      <button class="dropbtn main" onclick="window.location.href ='index.html'">
+        <h1>adway</h1>
+      </button>
+    </div>
+
+      <div class="Home k"><button class="dropbtn" onclick="window.location.href ='index.html'">Home</button>
+      </div>
+      <div class="portfolio dropdown k">
+        <button class="dropbtn" onclick="myFunction()">Portfolio<svg width="10" height="6"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+          </svg></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="projects.html">Projects</a>
+          <a href="skills.html">Skills</a>
+        </div>
+      </div>
+      <div class="about dropdown1 k">
+        <button class="dropbtn1" onclick="myFunction1()">About Me<svg width="10" height="6"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+          </svg></button>
+        <div id="myDropdown1" class="dropdown-content1">
+          <a href="education.html">My Education</a>
+          <a href="contact.html">Contact Details</a>
+        </div>
+      </div>
+    <div class="reachout k">
+      <button class="dropbtn rch" onclick="window.location.href ='reachout.html'">Reach Out</button>
+    </div>
+    <div class="dark">
+      <a class="darkbtn" id="btn"><img class="moon" id="icon" src="images/7148715_dark_mode_night_moon_icon.png" alt=""></a>
+      </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <hr>
+  <div class="middle">
+    <div class="left">
+        <div class="text">
+            <h3 id="small">Want to <strong>Reach Out?</strong></h3>
+            <form action="https://formsubmit.co/adwaylachhiramka1@gmail.com" method="POST">
+            <div class="rchinp">
+                <div class="name">
+                <h5>Name:</h5>
+                <input type="text" id="name" class="nameinp" name="name" >
+                </div>
+                <div class="email">
+                    <h5>Email:</h5>
+                    <input type="text" id="email" class="emailinp" name="email" >
+                </div>
+                <div class="message">
+                    <h5>Your Message:</h5>
+                <textarea type="text" id="message" class="messageinp" name="Message" placeholder="Leave your message here"></textarea>
+                </div>
+                <div class="send"><button id="send" onclick="message()">Send</button></div>
+                <br>
+                <h5 id="success">Your message successfully sent</h5>
+                </div>
+              </form>
+
+            <h2>Leave me a Message. I will try to reply as soon as possible.</h2>
+          </div>
+    </div>
+    <div class="right">
+        <img src="images/5860081.jpg" alt="">
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="x"></div>
+    <hr class="line">
+    <a href="https://hi-in.facebook.com/adway.lachhiramka" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/Adwayyyyy" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/adway-lachhiramka-45ab791a9/" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/channel/UC3B2e66QIeboKj5PlEICQHg?app=desktop" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/adwayyyyy/" class="fa fa-instagram"></a>
+    <hr class="line">
+    <div class="x"></div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
