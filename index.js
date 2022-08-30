@@ -45,12 +45,14 @@ btn.onclick=function(){
   document.body.classList.toggle("dark-theme")
   if(document.body.classList.contains("dark-theme")){
     icon.src="images/sun.png"
+    document.cookie="true"
   }
   else{
     icon.src="images/7148715_dark_mode_night_moon_icon.png"
+    document.cookie="false"
   }
-  console.log("Adway")
 }
+let x = document.cookie;
 function message(e){
   // e.preventDefault();
   var name=document.getElementById("name")
@@ -62,3 +64,12 @@ function message(e){
   email.value=''
   message.value=''
 }
+if(x==="true")
+{
+  document.body.classList.add("dark-theme")
+  icon.src="images/sun.png"}
+  else
+  {
+    document.body.classList.remove("dark-theme")
+    icon.src="images/7148715_dark_mode_night_moon_icon.png"
+  }
