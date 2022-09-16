@@ -29,3 +29,18 @@ margin: 10px 0px;
 .middle{
     flex-direction: column;
 }
+h3{
+    font-weight: bolder;
+    text-align: center;
+}
+@media screen and (max-width:606px) {
+    .middle{
+        margin-top: 140px;
+    }
+    .projects{
+        display: block;
+    }
+    .navbar{
+        min-height: 80px;
+    }
+}

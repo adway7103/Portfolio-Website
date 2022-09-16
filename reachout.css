@@ -49,12 +49,21 @@ h5{
     font-size: 20px;
 }
 .messageinp{
+    width:422px;
     height: 80px;
     padding: 10px;
     margin-left: 40px;
 }
 @media screen and (max-width: 600px) {
+    .nameinp,.emailinp{
+        margin-left: 79px;
+        width: 231px;
+    }
+    .nameinp{
+        margin-left: 75px;
+    }
     .messageinp{
+        width:360px;
       height: 80px;
       padding: 10px;
       margin-right: 20px;

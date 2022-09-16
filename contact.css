@@ -19,11 +19,11 @@ h5{
 .middle{
 align-items: center;
 }
-.footer{
-    margin-top: 8%;
-}
 .right{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.footer{
+    margin-top: 18%;
+  }
